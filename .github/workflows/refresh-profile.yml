@@ -1,0 +1,54 @@
+name: refresh profile
+
+# Rebuilds the data-driven SVGs from public GitHub data and commits them if
+# anything actually changed. The ASCII portrait is not rebuilt here: it needs
+# Pillow and only changes when the avatar does.
+
+on:
+  schedule:
+    # 06:17 UTC = 01:17 in Bogota. An odd minute on purpose -- GitHub delays
+    # cron jobs that pile up on the hour.
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "tools/**"
+      - ".github/workflows/refresh-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild SVGs
+        env:
+          # Only lifts the anonymous REST rate limit; the contribution page is
+          # fetched unauthenticated either way.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: python tools/build.py
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets data; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets data
+          git commit -m "chore(profile): refresh contribution + language SVGs [skip ci]"
+          git push

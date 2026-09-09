@@ -1,15 +1,6 @@
-<h1 align="center">Juan Manuel Velásquez Terreros</h1>
-
-<p align="center">
-  <b>Electronic Engineer · M.Sc. Candidate in Artificial Intelligence &amp; Data Science</b><br>
-  Universidad Autónoma de Occidente — Colombia
-</p>
-
-<p align="center">
-  I build <b>agentic systems</b> — from RAG knowledge bases to agents that observe,<br>
-  diagnose and safely operate production data pipelines — with the guardrails<br>
-  production actually requires. <b>MLOps → LLMOps → AgentOps</b>, end to end.
-</p>
+<div align="center">
+  <img src="./assets/header.svg" width="900" alt="Juan Manuel Velásquez Terreros — Electronic Engineer, M.Sc. candidate in AI & Data Science">
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
@@ -30,24 +21,25 @@
   <a href="https://www.linkedin.com/in/ing-juan-vel%C3%A1squez-577471243"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
+<div align="center">
+  <h3><code>juanma@github ~ $ neofetch</code></h3>
+  <table>
+    <tr>
+      <td valign="top"><img src="./assets/avatar-ascii.svg" width="374" alt="ASCII portrait"></td>
+      <td valign="top"><img src="./assets/info-card.svg" width="520" alt="System info card"></td>
+    </tr>
+  </table>
+</div>
+
 ---
 
-## 🤖 Agentic Operations
+<div align="center">
+  <h3><code>juanma@github ~ $ systemctl status os_system_agent</code></h3>
+  <img src="./assets/agent-loop.svg" width="900" alt="Observe, diagnose, report, risk-classify, approve, execute, verify">
+</div>
 
 Most "AI agent" demos stop at the prompt. My work starts where it gets hard: an
 agent with real credentials, on a real server, that must never break anything.
-
-```mermaid
-flowchart LR
-    A["🔍 Observe<br/><i>logs · timers · tables</i>"] --> B["🧠 Diagnose<br/><i>severity model</i>"]
-    B --> C["📋 Report<br/><i>evidence + next step</i>"]
-    C --> D{"Risk<br/>class?"}
-    D -->|"READ_ONLY"| E["⚙️ Execute<br/><i>allowlisted</i>"]
-    D -->|"WRITE · PRIVILEGED"| F["🙋 Human approval<br/><i>exact cmd + window</i>"]
-    F --> E
-    E --> G["✅ Verify<br/><i>then audit trail</i>"]
-    G --> A
-```
 
 | Discipline | How it shows up in the code |
 | :--- | :--- |
@@ -59,15 +51,13 @@ flowchart LR
 
 ---
 
-## 📐 Ways of Working
+<div align="center">
+  <h3><code>juanma@github ~ $ cat ways-of-working.md</code></h3>
+  <img src="./assets/lifecycle.svg" width="900" alt="MLOps to LLMOps to AgentOps">
+</div>
 
 I treat an AI system as a **lifecycle**, not a demo — and each stage has its own
 operational discipline:
-
-```mermaid
-flowchart LR
-    M["<b>MLOps</b><br/>ingest · index<br/>train · serve"] --> L["<b>LLMOps</b><br/>prompts · RAG<br/>evals · observability"] --> A["<b>AgentOps</b><br/>autonomy · guardrails<br/>approvals · audit"]
-```
 
 | Practice | In one line |
 | :--- | :--- |
@@ -80,7 +70,7 @@ flowchart LR
 
 ---
 
-## 🧭 Focus Areas
+<div align="center"><h3><code>juanma@github ~ $ ls -1 ~/focus</code></h3></div>
 
 <table>
 <tr>
@@ -116,29 +106,13 @@ intuition applied to software.
 
 ---
 
-## 📊 Activity
-
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=JuanMa0912&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D">
-  <img src="https://streak-stats.demolab.com?user=JuanMa0912&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="Contribution streak" height="180">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JuanMa0912&theme=tokyonight">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JuanMa0912&theme=default" alt="Most-committed languages" height="200">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JuanMa0912&theme=tokyonight">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JuanMa0912&theme=default" alt="Repositories per language" height="200">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=JuanMa0912&theme=tokyo-night&hide_border=true&area=true">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JuanMa0912&theme=github-light&hide_border=true&area=true" alt="Contribution activity" width="98%">
-</picture>
-
+  <h3><code>juanma@github ~ $ ./contributions.sh --last-year</code></h3>
+  <img src="./assets/contrib-heatmap.svg" width="880" alt="Contribution heatmap for the last year">
+  <br><br>
+  <img src="./assets/lang-bars.svg" width="560" alt="Languages by repository">
+  <br>
+  <sub><i>Rendered in this repo from public GitHub data — no third-party stats services, no token, no JavaScript.<br>Refreshed daily by <a href="./.github/workflows/refresh-profile.yml">a GitHub Action</a>. Build it yourself: <code>python tools/build.py</code></i></sub>
 </div>
 
 ---

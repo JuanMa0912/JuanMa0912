@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Juan Manuel Velasquez Terreros" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>Juan Manuel Velasquez Terreros</title>
+<style>
+text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop { 0% { opacity: 0; transform: scale(.4); } 70% { transform: scale(1.12); } 100% { opacity: 1; transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
+
+@keyframes blink { 0%, 50% { opacity: .85; } 51%, 100% { opacity: 0; } }
+@keyframes sweep { from { stroke-dashoffset: 900; } to { stroke-dashoffset: 0; } }
+.late { opacity: 0; animation: fade-up .7s ease-out forwards; }
+.rule { stroke: #3fb950; stroke-width: 1.5; stroke-dasharray: 900; animation: sweep 1.1s ease-out 3.4s backwards; }
+#clip-a rect { animation: type-a 0.88s steps(16) 0.30s backwards; }
+@keyframes type-a { from { width: 0; } to { width: 144.0px; } }
+#cur-a { animation: type-a 0.88s steps(16) 0.30s backwards, blink 1.05s steps(1) 0.30s infinite; }
+#clip-b rect { animation: type-b 1.65s steps(30) 1.50s backwards; }
+@keyframes type-b { from { width: 0; } to { width: 486.0px; } }
+#cur-b { animation: type-b 1.65s steps(30) 1.50s backwards, blink 1.05s steps(1) 1.50s infinite; }
+</style>
+<text x="20" y="40" font-size="15" fill="#3fb950" font-weight="600">juanma@github:~$ </text>
+<clipPath id="clip-a"><rect x="173.0" y="25" width="144.0" height="21.8"/></clipPath>
+<text x="173.0" y="40" font-size="15" fill="#7d8590" clip-path="url(#clip-a)">whoami --agentic</text>
+<rect id="cur-a" x="173.0" y="27.7" width="9.0" height="14.2" fill="#7d8590" opacity=".85"/>
+<clipPath id="clip-b"><rect x="20" y="65" width="486.0" height="39.1"/></clipPath>
+<text x="20" y="92" font-size="27" fill="#4493f8" clip-path="url(#clip-b)">Juan Manuel Velasquez Terreros</text>
+<rect id="cur-b" x="20" y="69.9" width="16.2" height="25.6" fill="#4493f8" opacity=".85"/>
+<text class="late" x="20" y="125" font-size="13.5" fill="#7d8590" style="animation-delay:3.5s">Electronic Engineer &#183; M.Sc. candidate in Artificial Intelligence &amp; Data Science &#8212; Universidad Autonoma de Occidente, Colombia</text>
+<line class="rule" x1="20" y1="146" x2="880" y2="146"/>
+<text class="late" x="20" y="176" font-size="14" fill="#7d8590" style="animation-delay:4.1s"><tspan fill="#3fb950" font-weight="600">$</tspan> I build agents that <tspan fill="#4493f8">observe</tspan>, <tspan fill="#4493f8">diagnose</tspan> and <tspan fill="#4493f8">safely operate</tspan> production data pipelines &#8212;</text>
+<text class="late" x="34" y="199" font-size="14" fill="#7d8590" style="animation-delay:4.4s">with the guardrails production actually requires. <tspan fill="#a371f7" font-weight="600">MLOps &#8594; LLMOps &#8594; AgentOps</tspan>, end to end.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="156" viewBox="0 0 520 156" role="img" aria-label="languages by repository" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>languages by repository</title>
+<style>
+text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop { 0% { opacity: 0; transform: scale(.4); } 70% { transform: scale(1.12); } 100% { opacity: 1; transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
+
+.t { fill: #4493f8; font-size: 13px; font-weight: 700; opacity: 0; animation: fade-in .5s ease-out forwards; }
+.sub { fill: #7d8590; font-size: 10px; opacity: 0; animation: fade-in .5s ease-out .2s forwards; }
+.leg { opacity: 0; animation: fade-up .45s ease-out forwards; }
+.n { fill: #7d8590; font-size: 11.5px; }
+.p { font-size: 11.5px; font-weight: 600; }
+#wipe rect { animation: wipe 1.4s cubic-bezier(.22,1,.36,1) .25s backwards; }
+@keyframes wipe { from { width: 0; } to { width: 480px; } }
+</style>
+<clipPath id="wipe"><rect x="20" y="56" width="480" height="14" rx="7"/></clipPath>
+<text class="t" x="20" y="26">languages</text>
+<text class="sub" x="20" y="42">weighted per repository — each repo counts once, split by its own byte mix (11 repos)</text>
+<g clip-path="url(#wipe)">
+<rect x="20.0" y="56" width="207.8" height="14" fill="#3aa0f5"><title>TypeScript — 43.3%</title></rect>
+<rect x="227.8" y="56" width="171.0" height="14" fill="#f0652f"><title>Jupyter Notebook — 35.6%</title></rect>
+<rect x="398.8" y="56" width="98.8" height="14" fill="#4b8bbe"><title>Python — 20.6%</title></rect>
+</g>
+<g class="leg" style="animation-delay:0.70s"><circle cx="25" cy="100" r="5" fill="#3aa0f5"/><text x="37" y="104"><tspan class="n">TypeScript</tspan><tspan class="p" dx="6" fill="#3aa0f5">43.3%</tspan><tspan class="n" dx="4" font-size="10"> · 5 repos</tspan></text></g>
+<g class="leg" style="animation-delay:0.78s"><circle cx="265" cy="100" r="5" fill="#f0652f"/><text x="277" y="104"><tspan class="n">Jupyter Notebook</tspan><tspan class="p" dx="6" fill="#f0652f">35.6%</tspan><tspan class="n" dx="4" font-size="10"> · 4 repos</tspan></text></g>
+<g class="leg" style="animation-delay:0.86s"><circle cx="25" cy="122" r="5" fill="#4b8bbe"/><text x="37" y="126"><tspan class="n">Python</tspan><tspan class="p" dx="6" fill="#4b8bbe">20.6%</tspan><tspan class="n" dx="4" font-size="10"> · 5 repos</tspan></text></g>
+</svg>

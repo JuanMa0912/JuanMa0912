@@ -1,0 +1,3 @@
+# Keep LF in the repo: the daily Action writes LF on Linux, and a CRLF
+# checkout here would make every run look like a change.
+* text=auto eol=lf

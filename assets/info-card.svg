@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="308" viewBox="0 0 520 308" role="img" aria-label="profile info card" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>profile info card</title>
+<style>
+text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop { 0% { opacity: 0; transform: scale(.4); } 70% { transform: scale(1.12); } 100% { opacity: 1; transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
+
+.row { opacity: 0; animation: fade-up .5s ease-out forwards; }
+.k { fill: #3fb950; font-size: 12px; font-weight: 600; }
+.v { fill: #7d8590; font-size: 12px; }
+.host { fill: #4493f8; font-size: 13px; font-weight: 700; }
+.at { fill: #7d8590; }
+.sw { opacity: 0; animation: pop .4s ease-out forwards; transform-box: fill-box; transform-origin: center; }
+</style>
+<rect x="1" y="1" width="518" height="306" rx="10" fill="#6e768114" stroke="#6e768155"/>
+<text class="row host" x="20" y="27" style="animation-delay:.05s">juanma<tspan class="at">@</tspan>github<tspan class="at" dx="8">~</tspan></text>
+<line x1="20" y1="35" x2="500" y2="35" stroke="#6e768155"/>
+<text class="row" x="20" y="46" style="animation-delay:0.15s"><tspan class="k">host</tspan><tspan class="v">    server232 · WSL2 Ubuntu 24.04 · Windows 11</tspan></text>
+<text class="row" x="20" y="67" style="animation-delay:0.22s"><tspan class="k">shell</tspan><tspan class="v">   bash · pwsh · ssh -o BatchMode=yes</tspan></text>
+<text class="row" x="20" y="88" style="animation-delay:0.29s"><tspan class="k">role</tspan><tspan class="v">    Electronic Engineer · M.Sc. cand. AI &amp; Data Science</tspan></text>
+<text class="row" x="20" y="109" style="animation-delay:0.36s"><tspan class="k">focus</tspan><tspan class="v">   AgentOps → LLMOps → MLOps</tspan></text>
+<text class="row" x="20" y="130" style="animation-delay:0.43s"><tspan class="k">doing</tspan><tspan class="v">   agents that operate pipelines without breaking them</tspan></text>
+<text class="row" x="20" y="151" style="animation-delay:0.50s"><tspan class="k">lang</tspan><tspan class="v">    TypeScript · Python · TypeScript · SQL</tspan></text>
+<text class="row" x="20" y="172" style="animation-delay:0.57s"><tspan class="k">repos</tspan><tspan class="v">   14 public · 1 star</tspan></text>
+<text class="row" x="20" y="193" style="animation-delay:0.64s"><tspan class="k">uptime</tspan><tspan class="v">  297 contributions · 32 active days</tspan></text>
+<text class="row" x="20" y="214" style="animation-delay:0.71s"><tspan class="k">policy</tspan><tspan class="v">  read-only by default · approval-gated writes</tspan></text>
+<text class="row" x="20" y="235" style="animation-delay:0.78s"><tspan class="k">locale</tspan><tspan class="v">  Cali, Colombia · UTC-5</tspan></text>
+<rect class="sw" x="20" y="264" width="20" height="12" rx="3" fill="#3fb950" style="animation-delay:0.90s"/>
+<rect class="sw" x="46" y="264" width="20" height="12" rx="3" fill="#4493f8" style="animation-delay:0.96s"/>
+<rect class="sw" x="72" y="264" width="20" height="12" rx="3" fill="#a371f7" style="animation-delay:1.02s"/>
+<rect class="sw" x="98" y="264" width="20" height="12" rx="3" fill="#db6d28" style="animation-delay:1.08s"/>
+<rect class="sw" x="124" y="264" width="20" height="12" rx="3" fill="#db61a2" style="animation-delay:1.14s"/>
+<rect class="sw" x="150" y="264" width="20" height="12" rx="3" fill="#39d353" style="animation-delay:1.20s"/>
+<rect class="sw" x="176" y="264" width="20" height="12" rx="3" fill="#4493f8" style="animation-delay:1.26s"/>
+<rect class="sw" x="202" y="264" width="20" height="12" rx="3" fill="#7d8590" style="animation-delay:1.32s"/>
+<text class="row v" x="500" y="275" text-anchor="end" font-size="10" style="animation-delay:1.4s">generated 2026-09-09 21:22 UTC</text>
+</svg>

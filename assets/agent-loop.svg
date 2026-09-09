@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="observe, diagnose, report, approve, execute, verify" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>observe, diagnose, report, approve, execute, verify</title>
+<style>
+text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+@keyframes fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop { 0% { opacity: 0; transform: scale(.4); } 70% { transform: scale(1.12); } 100% { opacity: 1; transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
+
+.node { opacity: 0; animation: fade-up .55s ease-out forwards; }
+.edge { stroke: #7d8590; stroke-width: 1.5; fill: none; opacity: 0; animation: fade-in .6s ease-out forwards; }
+.tag { fill: #7d8590; font-size: 10px; opacity: 0; animation: fade-in .6s ease-out 2s forwards; }
+</style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7d8590"/></marker><path id="flow" d="M 100 96 V 70 H 200 M 340 70 H 370 M 510 70 H 544 M 676 70 H 720 M 795 96 V 176 M 795 228 V 250 H 100 V 96" fill="none" stroke="none"/></defs>
+<path class="edge" d="M 172 70 H 194" marker-end="url(#ar)" style="animation-delay:0.50s"/>
+<path class="edge" d="M 342 70 H 364" marker-end="url(#ar)" style="animation-delay:0.70s"/>
+<path class="edge" d="M 512 70 H 538" marker-end="url(#ar)" style="animation-delay:0.90s"/>
+<path class="edge" d="M 678 70 H 714" marker-end="url(#ar)" style="animation-delay:1.10s"/>
+<path class="edge" d="M 795 98 V 170" marker-end="url(#ar)" style="animation-delay:1.30s"/>
+<path class="edge" d="M 610 118 V 176" marker-end="url(#ar)" style="animation-delay:1.50s"/>
+<path class="edge" d="M 690 202 H 714" marker-end="url(#ar)" style="animation-delay:1.70s"/>
+<path class="edge" d="M 795 230 V 250 H 100 V 98" marker-end="url(#ar)" style="animation-delay:1.90s"/>
+<g class="node" style="animation-delay:0.10s"><rect x="32" y="44" width="140" height="54" rx="10" fill="#6e768114" stroke="#4493f8" stroke-width="1.4"/><text x="102.0" y="68" text-anchor="middle" font-size="13" font-weight="700" fill="#4493f8">OBSERVE</text><text x="102.0" y="85" text-anchor="middle" font-size="10.5" fill="#7d8590">logs / timers / tables</text></g>
+<g class="node" style="animation-delay:0.25s"><rect x="202" y="44" width="140" height="54" rx="10" fill="#6e768114" stroke="#4493f8" stroke-width="1.4"/><text x="272.0" y="68" text-anchor="middle" font-size="13" font-weight="700" fill="#4493f8">DIAGNOSE</text><text x="272.0" y="85" text-anchor="middle" font-size="10.5" fill="#7d8590">severity model</text></g>
+<g class="node" style="animation-delay:0.40s"><rect x="372" y="44" width="140" height="54" rx="10" fill="#6e768114" stroke="#4493f8" stroke-width="1.4"/><text x="442.0" y="68" text-anchor="middle" font-size="13" font-weight="700" fill="#4493f8">REPORT</text><text x="442.0" y="85" text-anchor="middle" font-size="10.5" fill="#7d8590">evidence + next step</text></g>
+<g class="node" style="animation-delay:0.85s"><rect x="720" y="44" width="150" height="54" rx="10" fill="#6e768114" stroke="#3fb950" stroke-width="1.4"/><text x="795.0" y="68" text-anchor="middle" font-size="13" font-weight="700" fill="#3fb950">EXECUTE</text><text x="795.0" y="85" text-anchor="middle" font-size="10.5" fill="#7d8590">allowlisted only</text></g>
+<g class="node" style="animation-delay:1.00s"><rect x="720" y="176" width="150" height="54" rx="10" fill="#6e768114" stroke="#3fb950" stroke-width="1.4"/><text x="795.0" y="200" text-anchor="middle" font-size="13" font-weight="700" fill="#3fb950">VERIFY</text><text x="795.0" y="217" text-anchor="middle" font-size="10.5" fill="#7d8590">then audit trail</text></g>
+<g class="node" style="animation-delay:1.15s"><rect x="500" y="176" width="190" height="54" rx="10" fill="#6e768114" stroke="#db6d28" stroke-width="1.4"/><text x="595.0" y="200" text-anchor="middle" font-size="13" font-weight="700" fill="#db6d28">HUMAN APPROVAL</text><text x="595.0" y="217" text-anchor="middle" font-size="10.5" fill="#7d8590">exact command + time window</text></g>
+<g class="node" style="animation-delay:.55s"><path d="M 610 22 L 678 70 L 610 118 L 542 70 Z" fill="#6e768114" stroke="#a371f7" stroke-width="1.4"/><text x="610" y="66" text-anchor="middle" font-size="12" font-weight="700" fill="#a371f7">risk</text><text x="610" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#a371f7">class?</text></g>
+<text class="tag" x="686" y="60">read-only</text>
+<text class="tag" x="618" y="152">write / privileged</text>
+<text class="tag" x="410" y="245" text-anchor="middle">every action leaves an audit trail &#183; nothing destructive runs unapproved</text>
+<circle r="4.5" fill="#3fb950"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#flow"/></animateMotion><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.06;.94;1" dur="7s" repeatCount="indefinite"/></circle>
+</svg>
