@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="776" height="146" viewBox="0 0 776 146" role="img" aria-label="283 contributions in the last year" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
-<title>283 contributions in the last year</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="776" height="146" viewBox="0 0 776 146" role="img" aria-label="272 contributions in the last year" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>272 contributions in the last year</title>
 <style>
 text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
 @keyframes fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
@@ -45,8 +45,8 @@ text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'L
 <rect class="cell" x="44" y="106" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.18s"><title>0 contributions on 2025-11-01</title></rect>
 <rect class="cell" x="58" y="22" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.03s"><title>0 contributions on 2025-11-02</title></rect>
 <rect class="cell" x="58" y="36" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.05s"><title>0 contributions on 2025-11-03</title></rect>
-<rect class="cell" x="58" y="50" width="11" height="11" rx="2.5" fill="#0e4429" style="animation-delay:0.08s"><title>1 contribution on 2025-11-04</title></rect>
-<rect class="cell" x="58" y="64" width="11" height="11" rx="2.5" fill="#26a641" style="animation-delay:0.11s"><title>10 contributions on 2025-11-05</title></rect>
+<rect class="cell" x="58" y="50" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.08s"><title>0 contributions on 2025-11-04</title></rect>
+<rect class="cell" x="58" y="64" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.11s"><title>0 contributions on 2025-11-05</title></rect>
 <rect class="cell" x="58" y="78" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.14s"><title>0 contributions on 2025-11-06</title></rect>
 <rect class="cell" x="58" y="92" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.17s"><title>0 contributions on 2025-11-07</title></rect>
 <rect class="cell" x="58" y="106" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.19s"><title>0 contributions on 2025-11-08</title></rect>
@@ -395,7 +395,8 @@ text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'L
 <rect class="cell" x="744" y="106" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.83s"><title>0 contributions on 2026-10-17</title></rect>
 <rect class="cell" x="758" y="22" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.68s"><title>0 contributions on 2026-10-18</title></rect>
 <rect class="cell" x="758" y="36" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.70s"><title>0 contributions on 2026-10-19</title></rect>
-<text class="cap" x="0" y="135"><tspan class="hot">283</tspan> contributions<tspan dx="6">·</tspan><tspan dx="6" class="hot">51</tspan> active days<tspan dx="6">·</tspan><tspan dx="6">longest streak </tspan><tspan class="hot">6</tspan><tspan dx="6">·</tspan><tspan dx="6">peak </tspan><tspan class="hot">19</tspan><tspan dx="4">on 2026-06-04</tspan></text>
+<rect class="cell" x="758" y="50" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:0.73s"><title>0 contributions on 2026-10-20</title></rect>
+<text class="cap" x="0" y="135"><tspan class="hot">272</tspan> contributions<tspan dx="6">·</tspan><tspan dx="6" class="hot">49</tspan> active days<tspan dx="6">·</tspan><tspan dx="6">longest streak </tspan><tspan class="hot">6</tspan><tspan dx="6">·</tspan><tspan dx="6">peak </tspan><tspan class="hot">19</tspan><tspan dx="4">on 2026-06-04</tspan></text>
 <text class="cap" x="626" y="135">Less</text>
 <rect class="cell" x="656" y="126" width="11" height="11" rx="2.5" fill="#6e768133" style="animation-delay:1.90s"/>
 <rect class="cell" x="670" y="126" width="11" height="11" rx="2.5" fill="#0e4429" style="animation-delay:1.97s"/>
