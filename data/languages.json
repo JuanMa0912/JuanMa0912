@@ -2,50 +2,50 @@
  "languages": [
   {
    "name": "TypeScript",
-   "share": 0.41241237720821405,
-   "byte_share": 0.13781914263624132,
-   "bytes": 1626759,
+   "share": 0.4124401575571322,
+   "byte_share": 0.13877249980901446,
+   "bytes": 1640328,
    "repos": 7
   },
   {
    "name": "Python",
-   "share": 0.2656822607959498,
-   "byte_share": 0.13143345178894061,
-   "bytes": 1551385,
+   "share": 0.2656348876661255,
+   "byte_share": 0.1314804479458882,
+   "bytes": 1554134,
    "repos": 7
   },
   {
    "name": "Jupyter Notebook",
-   "share": 0.2449005027566167,
-   "byte_share": 0.7083247977858917,
+   "share": 0.24490050275661673,
+   "byte_share": 0.7073247160998986,
    "bytes": 8360767,
    "repos": 4
   },
   {
    "name": "JavaScript",
-   "share": 0.03705531832486122,
-   "byte_share": 0.008511825820950223,
-   "bytes": 100470,
+   "share": 0.037086224424180976,
+   "byte_share": 0.008531194769119852,
+   "bytes": 100841,
    "repos": 9
   },
   {
    "name": "PowerShell",
-   "share": 0.0365957083097872,
-   "byte_share": 0.009396388112147012,
+   "share": 0.03659570830978721,
+   "byte_share": 0.009383121379576281,
    "bytes": 110911,
    "repos": 2
   },
   {
    "name": "Shell",
-   "share": 0.0023403644565149367,
-   "byte_share": 0.0033714353393521864,
+   "share": 0.002340364456514937,
+   "byte_share": 0.0033666752197729546,
    "bytes": 39795,
    "repos": 3
   },
   {
    "name": "PLpgSQL",
-   "share": 0.001013468148056048,
-   "byte_share": 0.001142958516476953,
+   "share": 0.0010021548296425176,
+   "byte_share": 0.0011413447767296627,
    "bytes": 13491,
    "repos": 2
   }
@@ -53,6 +53,6 @@
  "weighting": "per-repo normalised (each repo counts once, split by its byte mix)",
  "repos": 18,
  "repos_with_code": 16,
- "stars": 1,
- "generated": "2026-11-04 14:29 UTC"
+ "stars": 0,
+ "generated": "2026-11-05 14:40 UTC"
 }
