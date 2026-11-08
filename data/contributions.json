@@ -1,11 +1,7 @@
 {
  "user": "JuanMa0912",
- "generated": "2026-11-07 12:58 UTC",
+ "generated": "2026-11-08 13:22 UTC",
  "days": {
-  "2025-11-02": {
-   "level": 0,
-   "count": 0
-  },
   "2025-11-09": {
    "level": 0,
    "count": 0
@@ -214,7 +210,7 @@
    "level": 0,
    "count": 0
   },
-  "2025-11-03": {
+  "2026-11-08": {
    "level": 0,
    "count": 0
   },
@@ -426,10 +422,6 @@
    "level": 0,
    "count": 0
   },
-  "2025-11-04": {
-   "level": 1,
-   "count": 1
-  },
   "2025-11-11": {
    "level": 0,
    "count": 0
@@ -638,10 +630,6 @@
    "level": 0,
    "count": 0
   },
-  "2025-11-05": {
-   "level": 3,
-   "count": 10
-  },
   "2025-11-12": {
    "level": 0,
    "count": 0
@@ -847,10 +835,6 @@
    "count": 0
   },
   "2026-11-04": {
-   "level": 0,
-   "count": 0
-  },
-  "2025-11-06": {
    "level": 0,
    "count": 0
   },
@@ -1062,10 +1046,6 @@
    "level": 0,
    "count": 0
   },
-  "2025-11-07": {
-   "level": 0,
-   "count": 0
-  },
   "2025-11-14": {
    "level": 0,
    "count": 0
@@ -1271,10 +1251,6 @@
    "count": 0
   },
   "2026-11-06": {
-   "level": 0,
-   "count": 0
-  },
-  "2025-11-08": {
    "level": 0,
    "count": 0
   },
@@ -1488,15 +1464,15 @@
   }
  },
  "stats": {
-  "total": 287,
+  "total": 276,
   "current_streak": 0,
   "longest_streak": 6,
-  "active_days": 53,
+  "active_days": 51,
   "busiest_day": {
    "date": "2026-06-04",
    "count": 19
   },
-  "first_day": "2025-11-02",
-  "last_day": "2026-11-07"
+  "first_day": "2025-11-09",
+  "last_day": "2026-11-08"
  }
 }
